@@ -12,7 +12,7 @@ board:
     调试器/编程器，迷你尺寸，mirco USB 接口，可数的外设，Arduino™ nano 兼容的接口。
   emulator_machine: ''
   large_image: documents/images/412_large.png
-  name: STM32L412RB-ST-NUCLEO
+  name: STM32L412-ST-NUCLEO
   price_cn: 99.04 CNY
   price_global: 15.33 USD
   sale_contact_cn: https://www.st.com
