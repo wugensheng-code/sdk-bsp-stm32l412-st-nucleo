@@ -67,7 +67,7 @@ features_zh:
 - 电路板c连接器：外部开关电源试验专用连接器用于ST-LINKMIPI®调试连接器的Micro AB或Mini AB USB连接器
 pkg_type: Board_Support_Packages
 pkg_vendor: RT-Thread
-pkg_version: 1.0.0
+pkg_version: 1.0.1
 template_projects:
 - builtin_files:
   - files_and_folders:
@@ -78,7 +78,6 @@ template_projects:
     - .settings
     - applications
     - board
-    - cconfig.h
     - figures
     - Kconfig
     - libraries
@@ -90,6 +89,7 @@ template_projects:
     - project.uvprojx
     - README.md
     - README_zh.md
+    - rt-thread
     - rtconfig.h
     - rtconfig.py
     - rtconfig_preinc.h
@@ -101,24 +101,8 @@ template_projects:
     - template.uvprojx
     source_path_offset: project_0
     target_path_offset: ''
-  external_files:
-  - files_and_folders:
-    - components
-    - include
-    - libcpu/arm
-    - libcpu/Kconfig
-    - libcpu/SConscript
-    - src
-    - tools
-    - Kconfig
-    - LICENSE
-    package_name: RT-Thread
-    package_type: RT-Thread_Source_Code
-    package_vendor: ''
-    package_version: latest
-    source_path_offset: rt-thread
-    target_path_offset: rt-thread
-  project_description: ST官方 NUCLEO32-L412 开发板的 BSP
-  project_name: stm32l412-st-nucleo
-  project_type: rt-thread|@full|@latest
+  external_files: []
+  project_description: ''
+  project_name: project0
+  project_type: rt-thread|@full|@4.0.4
 yaml_version: 3
